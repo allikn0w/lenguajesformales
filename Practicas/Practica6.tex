@@ -13,6 +13,17 @@
 \begin{center}
 \large \textbf{Práctica 6}: Lenguajes formales y gramáticas
 \end{center}
+\textbf{Definición: Gramática} es una tupla: $(N,T,P,\sigma)$ donde: \\
+\begin{itemize}
+  \item
+    N es un conjunto finito de símbolos llamados \textbf{no terminantes}.
+  \item
+    T es un conjunto finito de símbolos, llamados \textbf{terminantes} o \textbf{alfabeto},
+    tal que $N \cap T = \emptyset$
+  \item
+    P es un conjunto finito de \textbf{reglas de producción}, donde
+    \[ P \subseteq ((N \cup T)^{*} - T^{*}) \times (N \cup T)^{*}\]
+\end{itemize}
 \textbf{Definición 1.} Una gramática se dice:
 \begin{enumerate}[(a)]
 \item
@@ -36,7 +47,7 @@
 Clasifique cada una de las siguientes gramáticas (dando su tipo más restrictivo):
   \begin{enumerate}[a)]
   \item
-      $T = \{ a,b\}, N = \{ \sigma, A\}$, símbolos inicial $\sigma$, y producciones
+      $T = \{ a,b\}, N = \{ \sigma, A\}$, símbolo inicial $\sigma$, y producciones
       \[ \sigma \rightarrow b\sigma, \sigma \rightarrow aA, A \rightarrow a\sigma,\]
       \[ A \rightarrow bA, A \rightarrow a, \sigma \rightarrow b\]
       Regular.
@@ -44,7 +55,7 @@ Clasifique cada una de las siguientes gramáticas (dando su tipo más restrictiv
       $T = \{ a,b,c \}, N = \{ \alpha,A,B\}$, símbolo inicial $\sigma$, y producciones
       \[ \sigma \rightarrow AB, AB \rightarrow BA, A \rightarrow aA,\]
       \[ B \rightarrow Bb, A \rightarrow a, B \rightarrow b\] \\
-      Sensible al contexto
+      Sensible al contexto.
   \end{enumerate}
 
 \end{enumerate}
