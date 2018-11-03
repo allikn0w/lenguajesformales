@@ -32,14 +32,14 @@
     donde $A, B \in N$ y $a \in T$,
 \item
     \textit{libre} (o independiente) de contexto si cada producción es de la forma 
-    $A \rightarrow \delta$ donde $A \in N$ y $\delta \in (N \cup T)*$
+    $A \rightarrow \delta$ donde $A \in N$ y $\delta \in (N \cup T)^*$
 \item
     \textit{sensible} al conexto si cada producción es de la forma
-    $aA\beta \rightarrow \alpha\delta\beta$ donde $A \in N, \alpha,\beta \in (N \cup T)*$ y $\delta \in (N \cup T)+$,
+    $aA\beta \rightarrow \alpha\delta\beta$ donde $A \in N, \alpha,\beta \in (N \cup T)^*$ y $\delta \in (N \cup T)^+$,
 \item
     \textit{estructurada} por frases o irrestricta si no tiene restricciones sobre la forma de sus producciones, es decir
    si son de la forma
-    \[ \alpha \rightarrow \delta \text{\quad donde \quad} \alpha \in (N \cup T)* - T* y \delta \in (N \cup T)* \]
+    \[ \alpha \rightarrow \delta \text{\quad donde \quad} \alpha \in (N \cup T)^* - T^* \quad y \quad \delta \in (N \cup T)^* \]
 \end{enumerate}
 
 \begin{enumerate}[1.]
@@ -64,7 +64,7 @@ Clasifique cada una de las siguientes gramáticas (dando su tipo más restrictiv
     \item
       $T = \{ a,b,c \}, N = \{\sigma,A,B \},$ símbolo inicial $\sigma$, y producciones:
       \[ \sigma \rightarrow BAB, \quad \sigma \rightarrow ABA, \quad A \rightarrow AB, \quad B \rightarrow BA,\]
-      \[A \rightarrow aA, \quad A ab, \quad B \rightarrow b \].
+      \[A \rightarrow aA, \quad A ab, \quad B \rightarrow b.\]
       Independiente de contexto.
   \end{enumerate}
 \end{enumerate}
