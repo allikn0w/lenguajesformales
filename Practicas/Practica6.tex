@@ -1,0 +1,35 @@
+\documentclass{article}
+
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage[spanish,activeacute]{babel}
+\usepackage{mathtools}
+\usepackage[utf8]{inputenc}
+\usepackage{enumerate}
+\usepackage[a4paper, total={7in, 11in}]{geometry}
+\usepackage{charter}
+
+\begin{document}
+\begin{center}
+\large \textbf{Práctica 6}: Lenguajes formales y gramáticas
+\end{center}
+\textbf{Definición 1.} Una gramática se dice:
+\begin{enumerate}[(a)]
+\item
+    \textit{regular} si cada producción es de la forma:
+    $A \rightarrrow a$ o $A \rightarrow aB$ o $A \rightarrow \lambda$ 
+    donde $A, B \in N$ y $a \in T$,
+\item
+    \textit{libre} (o independiente) de contexto si cada producción es de la forma 
+    $A \rightarrow \delta$ donde $A \in N$ y $\delta \in (N \cup T)*$
+\item
+    \textit{sensible} al conexto si cada producción es de la forma
+    $aA\beta \rightarrow \alpha\delta\beta$ donde $A \in N, \alpha,\beta \in (N \cup T)*$ y $\delta \in (N \cup T)+$,
+\item
+    \textit{estructurada} por frases o irrestricta si no tiene restricciones sobre la forma de sus producciones, es decir
+   si son de la forma
+    \[ \alpha \rightarrow \delta \text{\quad donde \quad} \alpha \in (N \cup T)* - T* y \delta \in (N \cup T)* \]
+\end{enumerate}
+
+\end{document}
+
