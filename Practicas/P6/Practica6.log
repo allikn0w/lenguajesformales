@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.28)  3 NOV 2018 17:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.28)  3 NOV 2018 17:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -778,17 +778,26 @@ File: ./img/6.png Graphic file (type png)
  <use ./img/6.png>
 Package pdftex.def Info: ./img/6.png used on input line 43.
 (pdftex.def)             Requested size: 359.84349pt x 195.73076pt.
- [1
+
+<./img/7.png, id=7, 605.26125pt x 404.51125pt>
+File: ./img/7.png Graphic file (type png)
+ <use ./img/7.png>
+Package pdftex.def Info: ./img/7.png used on input line 44.
+(pdftex.def)             Requested size: 242.1002pt x 161.80162pt.
+
+Overfull \hbox (116.73369pt too wide) in paragraph at lines 41--46
+[] [] 
+ []
+
+[1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./img/1.png> <./img/4.png>
- <./img/5.png> <./img/3.png> <./img/2.png>] <./img/7.png, id=19, 605.26125pt x 
-404.51125pt>
-File: ./img/7.png Graphic file (type png)
+ <./img/5.png> <./img/3.png> <./img/2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 46--50
 
-<use ./img/7.png>
-Package pdftex.def Info: ./img/7.png used on input line 48.
-(pdftex.def)             Requested size: 242.1002pt x 161.80162pt.
- [2 <./img/6.png> <./img/7.png>] (./Practica6.aux
+ []
+
+[2 <./img/6.png> <./img/7.png>] (./Practica6.aux
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
 ) ) 
@@ -809,7 +818,7 @@ ts/type1/bitstrea/charter/bchr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
 b></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/typ
 e1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/
 share/texmf/fonts/type1/public/lm/lmsy7.pfb>
-Output written on Practica6.pdf (2 pages, 260984 bytes).
+Output written on Practica6.pdf (2 pages, 260987 bytes).
 PDF statistics:
  54 PDF objects out of 1000 (max. 8388607)
  34 compressed objects within 1 object stream
