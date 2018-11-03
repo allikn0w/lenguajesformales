@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.28)  3 NOV 2018 16:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.28)  3 NOV 2018 16:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -748,18 +748,48 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--41
 
  []
 
-[1
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--41
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--41
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--41
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--41
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--41
+
+ []
+
+<./img/6.png, id=6, 719.68875pt x 391.4625pt>
+File: ./img/6.png Graphic file (type png)
+ <use ./img/6.png>
+Package pdftex.def Info: ./img/6.png used on input line 43.
+(pdftex.def)             Requested size: 359.84349pt x 195.73076pt.
+ [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./img/1.png> <./img/4.png>
- <./img/5.png> <./img/3.png> <./img/2.png>] [2] (./Practica6.aux
+ <./img/5.png> <./img/3.png> <./img/2.png>] [2 <./img/6.png>] (./Practica6.aux
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
 ) ) 
 Here is how much of TeX's memory you used:
- 4601 strings out of 493029
- 61984 string characters out of 6136233
+ 4606 strings out of 493029
+ 62052 string characters out of 6136233
  139858 words of memory out of 5000000
- 8040 multiletter control sequences out of 15000+600000
+ 8044 multiletter control sequences out of 15000+600000
  33688 words of font info for 37 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  37i,5n,34p,269b,384s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -772,10 +802,10 @@ ts/type1/bitstrea/charter/bchr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
 b></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/typ
 e1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/
 share/texmf/fonts/type1/public/lm/lmsy7.pfb>
-Output written on Practica6.pdf (2 pages, 172205 bytes).
+Output written on Practica6.pdf (2 pages, 211278 bytes).
 PDF statistics:
- 52 PDF objects out of 1000 (max. 8388607)
+ 53 PDF objects out of 1000 (max. 8388607)
  34 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
