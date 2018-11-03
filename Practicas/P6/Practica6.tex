@@ -77,5 +77,27 @@ Clasifique cada una de las siguientes gramáticas (dando su tipo más restrictiv
       \[A \rightarrow aA, \quad A ab, \quad B \rightarrow b.\]
       Independiente de contexto (libre).
   \end{enumerate}
+\item
+  Dé una derivación de las sigueintes cadenas en las gramáticas especificadas:
+    \begin{enumerate}[a)]
+      \item 
+        Cadena $bbabbab$ en la gramática \textit{1a}.
+        \[ \sigma \]
+        \[ = < \sigma \rightarrow b\sigma >\]
+        \[ b\sigma \]
+        \[ = < \sigma \rightarrow b\sigma > \]
+        \[ bb\sigma \]
+        \[ = < \sigma \rightarrow aA > \]
+        \[ bbaA \]
+        \[ = < A \rightarrow bA > \]
+        \[ bbabA \]
+        \[ = < A \rightarrow bA > \]
+        \[ bbabbA \]
+        \[ = <A \rightarrow a\sigma> \]
+        \[ bbabba\sigma\]
+        \[ = <\sigma \rightarrow b> \]
+        \[ bbabbab\]
+    \end{enumerate}
 \end{enumerate}
+
 \end{document}
