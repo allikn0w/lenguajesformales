@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.28)  3 NOV 2018 17:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.28)  3 NOV 2018 18:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -798,7 +798,17 @@ File: ./img/8.png Graphic file (type png)
  <use ./img/8.png>
 Package pdftex.def Info: ./img/8.png used on input line 48.
 (pdftex.def)             Requested size: 295.10178pt x 58.21735pt.
- [2 <./img/6.png> <./img/7.png> <./img/8.png>] [3] (./Practica6.aux
+ [2 <./img/6.png> <./img/7.png> <./img/8.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 110--111
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--111
+
+ []
+
+[3] (./Practica6.aux
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
 ) ) 
@@ -819,7 +829,7 @@ ts/type1/bitstrea/charter/bchr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
 b></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/typ
 e1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/
 share/texmf/fonts/type1/public/lm/lmsy7.pfb>
-Output written on Practica6.pdf (3 pages, 272106 bytes).
+Output written on Practica6.pdf (3 pages, 272241 bytes).
 PDF statistics:
  58 PDF objects out of 1000 (max. 8388607)
  36 compressed objects within 1 object stream
