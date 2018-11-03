@@ -46,17 +46,26 @@
 \item
 Clasifique cada una de las siguientes gramáticas (dando su tipo más restrictivo):
   \begin{enumerate}[a)]
-  \item
+    \item
       $T = \{ a,b\}, N = \{ \sigma, A\}$, símbolo inicial $\sigma$, y producciones
       \[ \sigma \rightarrow b\sigma, \sigma \rightarrow aA, A \rightarrow a\sigma,\]
       \[ A \rightarrow bA, A \rightarrow a, \sigma \rightarrow b\]
       Regular.
-  \item 
+    \item 
       $T = \{ a,b,c \}, N = \{ \alpha,A,B\}$, símbolo inicial $\sigma$, y producciones
       \[ \sigma \rightarrow AB, AB \rightarrow BA, A \rightarrow aA,\]
       \[ B \rightarrow Bb, A \rightarrow a, B \rightarrow b\] \\
+       Sensible al contexto.
+    \item
+      $T = \{ a,b\}, N = \{ \sigma, A,B\}$, śimbolo inicial $\sigma$ y producciones:
+      \[ \sigma \rightarrow A, \quad \sigma \rightarrow AAB,\quad Aa \rightarrow ABa, \quad A \rightarrow aa,\]
+      \[ Bb \rightarrow ABb, \quad AB \rightarrow ABB, \quad B \rightarrow b.\]
       Sensible al contexto.
+    \item
+      $T = \{ a,b,c \}, N = \{\sigma,A,B \},$ símbolo inicial $\sigma$, y producciones:
+      \[ \sigma \rightarrow BAB, \quad \sigma \rightarrow ABA, \quad A \rightarrow AB, \quad B \rightarrow BA,\]
+      \[A \rightarrow aA, \quad A ab, \quad B \rightarrow b \].
+      Independiente de contexto.
   \end{enumerate}
-
 \end{enumerate}
 \end{document}
