@@ -6,7 +6,7 @@
 \usepackage{mathtools}
 \usepackage[utf8]{inputenc}
 \usepackage{enumerate}
-\usepackage[a4paper, total={7in, 11in}]{geometry}
+\usepackage[a4paper, total={7in, 10in}]{geometry}
 \usepackage{graphicx}
 \usepackage{charter}
 
@@ -107,8 +107,111 @@ Clasifique cada una de las siguientes gramáticas (dando su tipo más restrictiv
         \[ = < AB \rightarrow BA > \]
         \[ aBAb \]
         \[ = <A \rightarrow a, B \rightarrow b> \]
-        \[ abab. \] \\ \\
+        \[ abab. \] 
+      \item
+        \[ \sigma \]
+        \[ = < \sigma \rightarrow AAB > \]
+        \[ AAB \]
+        \[ =< B \rightarrow b > \]
+        \[ AAb \]
+        \[ = < A \rightarrow aA > \]
+        \[ Aaab \]
+        \[ = < Aa \rightarrow ABa > \]
+        \[ ABaab \]
+        \[ = <B \rightarrow b> \]
+        \[ Abaab \]
+        \[ =<A \rightarrow aa> \]
+        \[ aabaab \]
+      \item
+        \[ \sigma \]
+        \[ = < \sigma \rightarrow ABA >  \]
+        \[ ABA \]
+        \[ = < A \rightarrow AB \]
+        \[ ABAB \]
+        \[ = <B \rightarrow b > \]
+        \[ ABAb \]
+        \[ = <A \rightarrow ab > \]
+        \[ ABabb \]
+        \[ = < B \rightarrow b> \]
+        \[ Ababb \]
+        \[ = < A \rightarrow ab >  \]
+        \[ abbabb \]
     \end{enumerate}
+  \item 
+    Muestre que la cadena $abbbabaaba$ no está en el lenguaje generado por la gramática $G = (N,T,P,\sigma)$,
+    donde $N = \{ \sigma, A, B \}$, $T= \{ a,b \}$, símbolo inicial $\sigma$ y producciones: 
+    \[ \sigma \rightarrow aaBA, \quad \sigma \rightarrow ABB, \quad A \rightarrow aaB, \quad A \rightarrow \lambda \]
+    \[ aBa \rightarrow A, \quad Aaa \rightarrow B, \quad B \rightarrow AabaB, \quad B \rightarrow bbb \]
+
+    Ya sea, comenzando con $\sigma \rightarrow aaBA$, o $\sigma \rightarrow ABB$, al aplicar cualquiera de las reglas
+    de producción posibles, siempre se llega a algo con final en B o bbb. Este final es imposible de cambiar por a.
+    Por lo tanto $abbbabaaba$ no está en dicho lenguaje.
+  \item
+    Dé una gramaica del tipo pedido que genere los siguientes lenguajes:
+    \begin{itemize}
+      \item
+        Gramática regular:
+        \begin{enumerate}[i.]
+          \item
+            Cadenas sobre el alfabeto $\{ a,b \}$ que comiencen con a.
+          \item
+            Cadenas sobre el alfabeto $\{ a,b \}$ que contengan exactamente una a y terminen con al menos
+            una b.
+          \item
+            Cadenas sobre el alfabeto $\{ a,b\}$ que terminen con $ba$.
+          \item
+            Cadenas sobre el alfabeto $\{a,b\}$ que contengan $ba$.
+          \item
+            Cadenas sobre el alfabeto $\{a,b\}$ que no terminen con $ab$.
+        \end{enumerate}
+      \item
+        \begin{enumerate}
+          \item
+            Cadenas sobre el alfabeto $\{a,b\}$ de la forma $a^n b^n$ para $n \geq 0$.
+          \item
+            Cadenas s
+        \end{enumerate}
+    \end{itemize}
+  \item
+    Sea $\mathcal{L}$ el ocnjunto de cadenas sobre $\{a,b\}$ que contienen la misma cantidad de símbolos
+    a y b. Analice si cada una de las siguientes gramáticas genera $\mathcal{L}$. En caso negativo, dé un
+    contraejemplo (es decir, una cadena generada por la gramática pero que no está en $\mathcal{L}$, o
+    una cadena que está en $\mathcal{L}$ pero no es generada por la gramática). En todas las gramáticas el
+    símbolos inicial es S.
+
+    \begin{enumerate}[a)]
+      \item
+        $S \rightarrow aSb | bSa | \lambda$
+    \end{enumerate} 
+  \item
+    \begin{enumerate}[i.]
+      \item
+        Muestre que si cada producción de una gramática G es de la forma.
+        \[ A \rightarrow \quad o \quad A \rightarrow \alpha B \quad o \quad A \rightarrow \lambda \quad \text{donde} 
+        \quad A,B \in N \quad y \quad \alpha \in T^{+} \]
+        entonces existe una gramática regular $G'$ equivalente (es decir, tal que $L(G') = L(G))$.
+      \item
+        Aplique el apartado anterior para modificar la gramática siguiente (símbolo inicial: S) de manera de formar
+        una gramática regular equivalente.
+        \[ S \rightarrow yX \]
+        \[ X \rightarrow xxX \]
+        \[ X \rightarrow yY \]
+        \[ Y \rightarrow \lambda \]
+        \[ A \rightarrow xX \]
+    \end{enumerate}
+  \item
+    Muestre que un lenguaje regular que no contiene a $\lambda$ puede ser generado por una gramática que no contiene
+    reglas de la forma $A \rightarrow \lambda$. \\ \\
+    \textbf{Definición 2}. Una gramática se dice que está en forma normal de Chomsky sii toda producción es de la forma
+    \[ A \rightarrow BC \quad o \quad A \rightarrow a \quad o \quad S \rightarrow \lambda \]
+    donde $A,B,C \in N, a \in T, S$ es el no terminal inicial y $B$ y $C$ son distintos de $S$.
+  \item
+    Convertir a la forma normal de Chomsky:
+    \[ S \rightarrow xSy \]
+    \[ S \rightarrow wNz \]
+    \[ N \rightarrow S\]
+    \[ N \rightarrow \lambda \]
 \end{enumerate}
+
 
 \end{document}
